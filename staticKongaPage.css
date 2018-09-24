@@ -1,0 +1,342 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	
+}
+header {
+	border-bottom: solid 1px #e2dee0;
+	padding-bottom: 8px; 
+	margin-bottom: 18px; 
+}
+header nav {
+	margin: 20px 100px 20px 100px;
+}
+header nav ul li a {
+	font-family:proxima-nova-n9, proxima-nova, vedana,tahoma, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #888;
+	text-decoration: none;
+	padding: 3px;
+
+}
+header nav ul li{
+	display: inline;
+}
+header nav ul.headleft{float: left;}
+header nav ul.headright {
+	float: right;
+}
+header nav ul li.log a{
+	font-size: 11px;
+
+	color: #ed0f74;
+	border: solid 1px #ed0f74;
+	border-radius: 3px;
+	padding: 4px 10px 4px 10px;
+}
+.clear:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+div.fm {
+	margin: 0px 100px 20px 100px;
+}
+section img {
+	float: left;
+	width: 150px;
+	height: 70px;
+	padding-left: 20px; 
+	margin: 0 auto;
+}
+div.fm nav ul li a {
+	font-family:proxima-nova-n9, proxima-nova, vedana,tahoma, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #888;
+	text-decoration: none;
+	padding: 8px;
+}
+div.fm nav ul li {
+	display: inline;
+
+}
+div nav ul.otherright{
+	position: absolute;
+	top: 100px;
+	left: 1100px;
+}
+
+.fm input[type="search"]{
+	display: inline;
+	width: 500px;
+	padding: 8px;
+	margin: 15px 0 20px 50px;
+	border: solid 1px #ccc;
+	border-radius: 3px;
+	font-size: 13px;
+}
+.fm input[type="search"]:hover {
+	border-color: #aaa;
+}
+.fm input[type= "submit"] {
+	background: #fff;
+	color: #ed0f74;
+	border:solid 1px #ccc;
+	border-radius: 3px;
+	padding: 7px;
+	font-size: 13px;
+	font-family: proxima-nova-n9, proxima-nova, vedana,tahoma, sanserif;
+	font-weight: bold;
+	margin: 0 ;
+}
+
+input[type="submit"]:hover{
+	cursor: pointer;
+}
+
+.topmenu {
+	background: #ed0f74;
+	padding: 10px 0 10px 0;
+}
+.topmenu nav ul {margin-left: 70px;}
+.topmenu nav ul li {
+	display: inline;
+	 
+}
+.topmenu nav ul li a {
+	font-family:proxima-nova-n9, proxima-nova, vedana,tahoma, sans-serif;
+	font-size: 15px;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	padding: 0px;
+	margin-left: 50px; 
+}
+
+div#bgc {
+	background-color: #eee;
+}
+div#main {
+	width: 1150px;
+	margin: 0 auto;
+}
+
+.topslide img {
+	width: 1150px;
+	height: 335px;
+}
+.home nav ul {
+	list-style: none;
+	border: solid 0.5px #ddd;
+	width: 180px;
+	margin: 30px 0;
+}
+div nav ul li.listhome a {
+	display: block;
+	padding: 10px;
+	font-size: 12px;
+	text-decoration: none;
+	color: #223;
+}
+.home nav ul li#headlisthome a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+}
+div nav ul li.view a{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	font-size: 13px;
+}
+div nav ul li.view{
+	border: solid 0px;
+	background-color: #d4d5ce;
+	padding: 10px;
+}
+.home nav ul li#headlisthome {
+	border: solid 0px;
+	background-color: #a5b72f;
+	padding: 20px 20px 20px 30px;
+	margin-bottom: 10px;
+}
+
+
+.computer nav ul {
+	list-style: none;
+	border: solid 0.5px #ddd;
+	width: 180px;
+	margin: 30px 0;
+}
+.computer nav ul li#headlistcomputer a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+}
+.computer nav ul li#headlistcomputer {
+	border: solid 0px;
+	background-color: #86acb7;
+	padding: 20px 20px 20px 30px;
+	margin-bottom: 10px;
+}
+
+
+.phones nav ul {
+	list-style: none;
+	border: solid 0.5px #ddd;
+	width: 180px;
+	margin: 30px 0;
+}
+.phones nav ul li#headlistphones a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+}
+.phones nav ul li#headlistphones {
+	border: solid 0px;
+	background-color: #cd0027;
+	padding: 20px 20px 20px 30px;
+	margin-bottom: 10px;
+}
+
+.women nav ul {
+	list-style: none;
+	border: solid 0.5px #ddd;
+	width: 180px;
+	margin: 30px 0;
+}
+.women nav ul li#headlistwomen a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+}
+.women nav ul li#headlistwomen {
+	border: solid 0px;
+	background-color: #c5256c;
+	padding: 20px 20px 20px 30px;
+	margin-bottom: 10px;
+}
+
+
+.men nav ul {
+	list-style: none;
+	border: solid 0.5px #ddd;
+	width: 180px;
+	margin: 30px 0;
+}
+.men nav ul li#headlistmen a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+}
+.men nav ul li#headlistmen {
+	border: solid 0px;
+	background-color: #155970;
+	padding: 20px 20px 20px 30px;
+	margin-bottom: 10px;
+}
+
+
+.electronics nav ul {
+	list-style: none;
+	border: solid 0.5px #ddd;
+	width: 180px;
+	margin: 30px 0;
+}
+.electronics nav ul li#headlistelectronics a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+}
+.electronics nav ul li#headlistelectronics {
+	border: solid 0px;
+	background-color: #1885c2;
+	padding: 20px 20px 20px 30px;
+	margin-bottom: 10px;
+}
+
+.other nav ul {
+	list-style: none;
+	border: solid 0.5px #ddd;
+	width: 180px;
+	margin: 30px 0;
+}
+.other nav ul li#headlistother a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+}
+.other nav ul li#headlistother {
+	border: solid 0px;
+	background-color: #8e9578;
+	padding: 20px 20px 20px 30px;
+	margin-bottom: 10px;
+}
+.beforefooter p {
+	font-size: 12px;
+	font-family: sans-serif;
+	color: #333;
+	margin: 30px 0;
+	letter-spacing: 1px;
+}
+
+
+footer {
+	border-top: solid 2px #ed0f74;
+	background: #434242;
+	height: 320px;
+	padding: 20px;
+}
+footer div{
+	margin: 0 80px;
+}
+footer div p,footer div span {
+	color: #999;
+	font-size: 12px;
+}
+.footerbold {
+	color: white;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+footer div#footerleft {
+	float: left;
+}
+footer div#footerright {
+	float: right;
+}
+footer div p {
+	padding: 0px 0 10px 0;
+}
+footer div span {
+	display: inline-block;
+	padding: 0 0 10px 0;
+}
+#footerright input[type="email"]{
+	display: inline;
+	padding: 7px;
+	margin-bottom: 10px;
+	border: solid 1px #ccc;
+	font-size: 13px;
+}
+#footerright input[type= "submit"] {
+	background: #f5b050;
+	color: #777;
+	border: solid 1px #f5b050;
+	padding: 7px;
+	font-size: 13px;
+	font-family: proxima-nova-n9, proxima-nova, vedana,tahoma, sanserif;
+	margin: 0 ;
+}
